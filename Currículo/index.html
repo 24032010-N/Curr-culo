@@ -11,7 +11,7 @@
         <h1>Currículo Profissional</h1>
         <button id="editar">Editar</button>
         <button id="sair">Sair</button>
-        <h2 id="nome">Neilyanne</h2>
+        <h2 id="perfilNome">Neilyanne</h2>
         <img src="img.currículo.jpg" alt="Foto de Perfil" class="foto-perfil">
 
 
@@ -19,7 +19,7 @@
             Experiente em áreas de computação
         </p>
 
-        <h3>Área Profissional</h3>
+        <h3 id="perfilÁreaProfissional">Área Profissional</h3>
         <p1>Estudante na escola Herta Layser, cursando Desenvolvimento de Sistemas</p1>
         <br>
         <br>
@@ -33,6 +33,39 @@
             <li>Brasil</li>
         </ul>
         <Button>Contratar</Button>
+    </div>
+
+    <div class="formulario" id="areaFormulario" hidden>
+
+      <h2>Editar Perfil</h2>
+
+      <form id="formPerfil">
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" required>
+
+        <label for="e-mail">E-mail:</label>
+        <input type="text" id="e-mail" required>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" required>
+
+        <label for="pais">País:</label>
+        <input type="text" id="pais" required>
+
+        <label for="descrição">Descrição:</label>
+        <input type="text" id="descrição" required>
+
+        <button type="submil">Salvar Perfil</button>
+
+        <button type="button" id="cancelar">
+          Cancelar
+        </button>
+
+      </form>
     </div>
     <script src="script.js"></script>
 </body>
