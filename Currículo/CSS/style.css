@@ -63,3 +63,39 @@ h3{
     color: #1e2643;
     text-align:left;
 }
+
+.formulario { width:450px; max-width:100% padding:30px; background-color:white; border-radius:17px;
+   box-shadow:0 5px 15px rgba(0,0,0,0.15);
+}
+
+.formulario h2 { text-align:center; margin-top:15px; margin-button:22px;
+
+.formulario label { display:block; margin-top:12px; margin-button:6px;
+
+.formulario input, .formulario textarea {
+   display:block; width:100%; padding:11px;
+
+   border:1px solid #cccccc; border-radius:6px;
+
+   font-family:Arial, sans=serif; font-size:15px;
+}
+
+.formulario textarea { min-heigth:90px; resize:vertical;}
+
+.formulario button {
+    display: block;
+    width:100%;
+    margin-top:15px;
+}
+
+/*Destaque ao selecionar um campo*/
+
+.formulario input:focus,
+.formulario textarea:focus {
+    outline:2px solid #087bfa;
+    outline-offset:1px;
+}
+
+[hidden] {
+    display:none !important;
+}
